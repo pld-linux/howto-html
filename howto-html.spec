@@ -3,12 +3,12 @@ Summary(es): Varios HOWTOs del Proyecto de Documentación del Linux (LDP)
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Summary(pt_BR): Vários HOWTOs do Projeto de Documentação do Linux (LDP)
 Name:		howto-html
-Version:	20020706
+Version:	20020928
 Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/other-formats/html_single/Linux-html-single-HOWTOs-%{version}.tar.gz
-Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/other-formats/html_single/Linux-mini-html-single-HOWTOs-%{version}.tar.gz
+Source0:	http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Linux-html-single-HOWTOs-%{version}.tar.bz2
+Source1:	http://www.ibiblio.org/pub/Linux/docs/HOWTO/mini/other-formats/html_single/Linux-mini-html-single-HOWTOs-%{version}.tar.bz2    
 URL:		http://www.tldp.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -58,9 +58,6 @@ do
 	sed -e 's/\/index\.html/\.html/g' -e 's/\.\.\/mini\///g' -e 's/\.\.\///g' $i.tmp > $i
 	rm -rf $i.tmp
 done 
-
-# do not change this unless rpm compress htmls
-gzip -9nf *.html
 
 %install
 rm -rf $RPM_BUILD_ROOT
