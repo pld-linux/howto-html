@@ -10,9 +10,10 @@ Group:		Documentation
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/other-formats/html_single/Linux-html-single-HOWTOs-%{version}.tar.bz2
 # Source0-md5:	ce3f10e881ce4031e98248ea7361517d
 URL:		http://www.tldp.org/
+BuildRequires:	sed >= 4.0
+Obsoletes:	ldp
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	ldp
 
 %description
 Linux HOWTOs are detailed documents which describe a specific aspect
@@ -65,4 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_defaultdocdir}/HOWTO/html/
+%{_defaultdocdir}/HOWTO/html
