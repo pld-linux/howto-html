@@ -52,12 +52,7 @@ estão no diretório /usr/share/doc/HOWTO.
 %build
 # cosmetics
 # remove leading ../{mini,} and change trailling index.html-s appropriately
-for i in *.html
-do
-	mv $i $i.tmp
-	sed -e 's/\/index\.html/\.html/g' -e 's/\.\.\/mini\///g' -e 's/\.\.\///g' $i.tmp > $i
-	rm -rf $i.tmp
-done
+sed -i -e 's/\/index\.html/\.html/g' -e 's/\.\.\/mini\///g' -e 's/\.\.\///g' *.html
 
 %install
 rm -rf $RPM_BUILD_ROOT
