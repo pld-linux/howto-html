@@ -1,7 +1,7 @@
 Summary:	Various HOWTOs from the Linux Documentation Project
 Summary(es):	Varios HOWTOs del Proyecto de Documentación del Linux (LDP)
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
-Summary(pt_BR): Vários HOWTOs do Projeto de Documentação do Linux (LDP)
+Summary(pt_BR):	Vários HOWTOs do Projeto de Documentação do Linux (LDP)
 Name:		howto-html
 Version:	20030706
 Release:	1
