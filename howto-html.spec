@@ -37,7 +37,7 @@ http://www.tldp.org/docs.html#howto
 
 %description -l pl
 To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
-du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem. Najnowsze
+du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuksem. Najnowsze
 wersje tych dokumentów znajdziesz pod adresem:
 http://www.tldp.org/docs.html#howto
 
