@@ -8,7 +8,7 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/other-formats/html_single/Linux-html-single-HOWTOs-%{version}.tar.gz
-Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/other-formats/html_single/Linux-html-single-mini-HOWTOs-%{version}.tar.gz
+Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/other-formats/html_single/Linux-mini-html-single-HOWTOs-%{version}.tar.gz
 URL:		http://www.tldp.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
