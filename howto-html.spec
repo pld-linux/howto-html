@@ -59,7 +59,7 @@ do
 	mv $i $i.tmp
 	sed -e 's/\/index\.html/\.html/g' -e 's/\.\.\/mini\///g' -e 's/\.\.\///g' $i.tmp > $i
 	rm -rf $i.tmp
-done 
+done
 
 %install
 rm -rf $RPM_BUILD_ROOT
