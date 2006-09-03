@@ -26,7 +26,7 @@ documents are located at <http://www.tldp.org/docs.html#howto>.
 Esta es la mejor colección existente de documentos Linux. Si deseas
 encontrar las versiones más recientes de estos documentos mira en
 http://sunsite.unc.edu/Linux. Las versiones en este paquete están en
-el directorio %{_docdir}/LDP.
+el directorio %{_docdir}/LDP .
 
 %description -l fr
 Les HOWTO Linux sont des documents décrivant de façon exhaustive un
@@ -34,19 +34,19 @@ aspect de la configuration ou de l'utilisation d'un système Linux. Les
 HOWTO Linux sont l'une des meilleures sources d'information sur la
 pratique de votre système. La dernière version de chacun de ces
 documents peut être touvée à cette adresse:
-<http://www.tldp.org/docs.html#howto>
+<http://www.tldp.org/docs.html#howto>.
 
 %description -l pl
 To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
 du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuksem. Najnowsze
 wersje tych dokumentów znajdziesz pod adresem:
-<http://www.tldp.org/docs.html#howto>
+<http://www.tldp.org/docs.html#howto>.
 
 %description -l pt_BR
 Esta é a melhor coleção existente de documentos Linux. Se você deseja
 encontrar as versões mais recentes destes documentos veja em
 <http://sunsite.unc.edu/Linux>. As versões neste pacote estão no
-diretório %{_docdir}/LDP.
+diretório %{_docdir}/LDP .
 
 %prep
 %setup -qc
