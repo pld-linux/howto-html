@@ -1,7 +1,7 @@
 Summary:	Various HOWTOs from the Linux Documentation Project
-Summary(es):	Varios HOWTOs del Proyecto de Documentación del Linux (LDP)
-Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
-Summary(pt_BR):	Vários HOWTOs do Projeto de Documentação do Linux (LDP)
+Summary(es.UTF-8):   Varios HOWTOs del Proyecto de DocumentaciÃ³n del Linux (LDP)
+Summary(pl.UTF-8):   Rozmaite dokumenty HOWTO z Linux Documentation Project
+Summary(pt_BR.UTF-8):   VÃ¡rios HOWTOs do Projeto de DocumentaÃ§Ã£o do Linux (LDP)
 Name:		howto-html
 Version:	20060908
 Release:	1
@@ -22,31 +22,31 @@ of configuring or using Linux. Linux HOWTOs are a great source of
 practical information about your system. The latest versions of these
 documents are located at <http://www.tldp.org/docs.html#howto>.
 
-%description -l es
-Esta es la mejor colección existente de documentos Linux. Si deseas
-encontrar las versiones más recientes de estos documentos mira en
-http://sunsite.unc.edu/Linux. Las versiones en este paquete están en
+%description -l es.UTF-8
+Esta es la mejor colecciÃ³n existente de documentos Linux. Si deseas
+encontrar las versiones mÃ¡s recientes de estos documentos mira en
+http://sunsite.unc.edu/Linux. Las versiones en este paquete estÃ¡n en
 el directorio %{_docdir}/LDP .
 
-%description -l fr
-Les HOWTO Linux sont des documents décrivant de façon exhaustive un
-aspect de la configuration ou de l'utilisation d'un système Linux. Les
+%description -l fr.UTF-8
+Les HOWTO Linux sont des documents dÃ©crivant de faÃ§on exhaustive un
+aspect de la configuration ou de l'utilisation d'un systÃ¨me Linux. Les
 HOWTO Linux sont l'une des meilleures sources d'information sur la
-pratique de votre système. La dernière version de chacun de ces
-documents peut être touvée à cette adresse:
+pratique de votre systÃ¨me. La derniÃ¨re version de chacun de ces
+documents peut Ãªtre touvÃ©e Ã  cette adresse:
 <http://www.tldp.org/docs.html#howto>.
 
-%description -l pl
-To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
-du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuksem. Najnowsze
-wersje tych dokumentów znajdziesz pod adresem:
+%description -l pl.UTF-8
+To jest zbiÃ³r dokumentÃ³w HOWTO, w ktÃ³rych znajdziesz odpowiedzi na
+duÅ¼Ä… czÄ™Å›Ä‡ pytaÅ„ pojawiajÄ…cych siÄ™ przy pracy z Linuksem. Najnowsze
+wersje tych dokumentÃ³w znajdziesz pod adresem:
 <http://www.tldp.org/docs.html#howto>.
 
-%description -l pt_BR
-Esta é a melhor coleção existente de documentos Linux. Se você deseja
-encontrar as versões mais recentes destes documentos veja em
-<http://sunsite.unc.edu/Linux>. As versões neste pacote estão no
-diretório %{_docdir}/LDP .
+%description -l pt_BR.UTF-8
+Esta Ã© a melhor coleÃ§Ã£o existente de documentos Linux. Se vocÃª deseja
+encontrar as versÃµes mais recentes destes documentos veja em
+<http://sunsite.unc.edu/Linux>. As versÃµes neste pacote estÃ£o no
+diretÃ³rio %{_docdir}/LDP .
 
 %prep
 %setup -qc
